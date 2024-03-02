@@ -1,9 +1,10 @@
 import { useState } from "react";
 import "./App.css";
 import Header from "./Layouts/Header";
-import HeroSection from "./HeroSection";
+import HeroSection from "./Components/HeroSection";
 import Brands from "./Components/Brands";
-import TrustedSection from "./TrustedSection";
+import TrustedSection from "./Components/TrustedSection";
+import Footer from "./Layouts/Footer";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,6 +14,7 @@ function App() {
       <HeroSection />
       <Brands />
       <TrustedSection />
+      <Footer />
     </>
   );
 }

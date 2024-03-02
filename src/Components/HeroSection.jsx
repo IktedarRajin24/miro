@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./Layouts/Button";
+import Button from "../Layouts/Button";
 import { LiaStarSolid, LiaStarHalfAltSolid } from "react-icons/lia";
 
 const HeroSection = () => {
