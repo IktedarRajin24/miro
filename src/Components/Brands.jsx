@@ -4,37 +4,37 @@ import Marquee from "react-fast-marquee";
 const Brands = () => {
   return (
     <div>
-      <p></p>
+      <p className="text-slate-500 text-center">Trusted by 45M+ users</p>
       <Marquee speed={50} className="lg:w-[85%] w-[95%] mx-auto my-12 px-5">
-        <div className="w-[230px] mx-8">
-          <img src="images/walmart.png" />
+        <div className="md:w-[230px] w-[150px] mx-8">
+          <img src="images/walmart.png" alt="walmart" />
         </div>
-        <div className="w-[230px] mx-8">
-          <img src="images/cisco.png" />
+        <div className="md:w-[230px] w-[150px] mx-8">
+          <img src="images/cisco.png" alt="cisco" />
         </div>
-        <div className="w-[230px] mx-8">
-          <img src="images/deloitte.png" />
+        <div className="md:w-[230px] w-[150px] mx-8">
+          <img src="images/deloitte.png" alt="deloitte" />
         </div>
-        <div className="md:w-[230px] mx-8">
-          <img src="images/Volvo.png" />
+        <div className="md:w-[230px] w-[150px] mx-8">
+          <img src="images/Volvo.png" alt="volvo" />
         </div>
-        <div className="w-[230px] mx-8">
-          <img src="images/okta.png" />
+        <div className="md:w-[230px] w-[150px] mx-8">
+          <img src="images/okta.png" alt="okta" />
         </div>
-        <div className="w-[230px] mx-8">
-          <img src="images/walmart.png" />
+        <div className="md:w-[230px] w-[150px] mx-8">
+          <img src="images/walmart.png" alt="walmart" />
         </div>
-        <div className="w-[230px] mx-8">
-          <img src="images/cisco.png" />
+        <div className="md:w-[230px] w-[150px] mx-8">
+          <img src="images/cisco.png" alt="cisco" />
         </div>
-        <div className="w-[230px] mx-8">
-          <img src="images/deloitte.png" />
+        <div className="md:w-[230px] w-[150px] mx-8">
+          <img src="images/deloitte.png" alt="deloitte" />
         </div>
-        <div className="w-[230px] mx-8">
-          <img src="images/Volvo.png" />
+        <div className="md:w-[230px] w-[150px] mx-8">
+          <img src="images/Volvo.png" alt="volvo" />
         </div>
-        <div className="w-[230px] mx-8">
-          <img src="images/okta.png" />
+        <div className="md:w-[230px] w-[150px] mx-8">
+          <img src="images/okta.png" alt="okta" />
         </div>
       </Marquee>
     </div>

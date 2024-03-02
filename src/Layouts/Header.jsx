@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { CiGlobe } from "react-icons/ci";
 import { TfiMenu } from "react-icons/tfi";
 import { MdClose } from "react-icons/md";
@@ -19,6 +19,13 @@ const ListItem = ({ children, isExpandable }) => {
 };
 
 const Header = ({ isOpen, onSetIsOpen }) => {
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [isOpen]);
   return (
     <nav
       className={`w-full flex items-baseline lg:justify-normal lg:gap-10 gap-3 px-10 py-5 border-b-2 relative `}
