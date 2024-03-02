@@ -3,8 +3,8 @@ import Button from "./Layouts/Button";
 
 const HeroSection = () => {
   return (
-    <div className="lg:w-[70%] w-[95%] mx-auto py-20 flex lg:flex-row flex-col justify-center items-center lg:gap-0 gap-10">
-      <div className="lg:w-1/2 w-[90%]">
+    <div className="lg:w-[85%] w-[95%] mx-auto py-20 flex lg:flex-row flex-col justify-center items-center lg:gap-0 gap-10">
+      <div className="lg:w-1/2 w-[95%]">
         <h1 className="text-5xl font-bold lg:w-[60%] w-[95%] leading-[56px] pb-3">
           Take ideas from better to best
         </h1>
@@ -24,7 +24,7 @@ const HeroSection = () => {
           Collaborate with your team within minutes
         </p>
       </div>
-      <div className="lg:w-1/2 w-[90%]">
+      <div className="lg:w-1/2 w-[95%]">
         <img src="images/hero-image.png" alt="" />
       </div>
     </div>
