@@ -88,7 +88,11 @@ const TeamsSection = () => {
         Built for all kinds of teams
       </h1>
       <div className="flex items-center flex-wrap gap-4 font-semibold">
-        <Menu menuItems={names} onSetView={handleSetUseCase} />
+        <Menu
+          menuItems={names}
+          onSetView={handleSetUseCase}
+          itemName={team.name}
+        />
       </div>
       {team && (
         <div className="w-full mx-auto py-10 flex lg:flex-row flex-col justify-between items-start lg:gap-0 gap-10">
