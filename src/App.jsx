@@ -7,6 +7,7 @@ import TrustedSection from "./Components/TrustedSection";
 import Footer from "./Layouts/Footer";
 import SectionOne from "./Components/SectionOne";
 import SectionTwo from "./Components/SectionTwo";
+import SectionSix from "./Components/SectionSix";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,6 +19,7 @@ function App() {
       <TrustedSection />
       <SectionOne />
       <SectionTwo />
+      <SectionSix />
       <Footer />
     </>
   );
