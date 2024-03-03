@@ -83,7 +83,7 @@ const TeamsSection = () => {
     setTeam(teams.filter((team) => team.name === teamName)[0]);
   };
   return (
-    <div className="lg:w-[85%] w-[95%] md:h-[780px] mx-auto py-20 flex flex-col justify-center items-start lg:gap-0 gap-10">
+    <div className="lg:w-[85%] w-[95%] lg:h-[780px] mx-auto py-20 flex flex-col justify-center items-start lg:gap-0 gap-10">
       <h1 className="2xl:text-5xl text-4xl font-bold lg:w-[60%] w-[95%] leading-[56px] mb-10">
         Built for all kinds of teams
       </h1>
@@ -123,7 +123,7 @@ const TeamsSection = () => {
             </div>
           </div>
           <div className="lg:w-1/2 w-[95%] lg:mx-0 mx-auto ">
-            <img src={team.image} alt={team.name} />
+            <img src={team.image} alt={team.name} className="w-[90%] mx-auto" />
           </div>
         </div>
       )}

@@ -61,7 +61,7 @@ const UseCaseSection = () => {
     setUseCase(useCases.filter((useCase) => useCase.name === useCaseName)[0]);
   };
   return (
-    <div className="lg:w-[85%] w-[95%] md:h-[780px] mx-auto py-20 flex flex-col justify-center items-start lg:gap-0 gap-5">
+    <div className="lg:w-[85%] w-[95%] lg:h-[780px] mx-auto py-20 flex flex-col justify-center items-start lg:gap-0 gap-5">
       <h1 className="2xl:text-5xl text-4xl font-bold lg:w-[60%] w-[95%] leading-[56px] mb-10">
         Built for the way you work
       </h1>
@@ -86,7 +86,11 @@ const UseCaseSection = () => {
             </p>
           </div>
           <div className="lg:w-1/2 w-[95%] lg:mx-0 mx-auto ">
-            <img src={useCase.image} alt={useCase.name} />
+            <img
+              src={useCase.image}
+              alt={useCase.name}
+              className="w-[90%] mx-auto"
+            />
           </div>
         </div>
       )}

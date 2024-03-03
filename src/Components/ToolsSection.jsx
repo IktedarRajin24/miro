@@ -19,7 +19,7 @@ const ToolsSection = () => {
         <img
           src="images/integrations.png"
           alt="integrations"
-          className="md:w-[70%] w-90%"
+          className="md:w-[70%] w-90% mx-auto"
         />
       </div>
     </div>

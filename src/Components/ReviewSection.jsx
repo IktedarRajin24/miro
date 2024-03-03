@@ -45,11 +45,11 @@ const ReviewSection = () => {
         See all customer services{" "}
         <FaLongArrowAltRight size={14} strokeWidth="0" />
       </button>
-      <div className="md:w-11/12 w-[90%] mb-20 mx-auto flex md:flex-row flex-col gap-y-20 justify-around items-start gap-3">
+      <div className="md:w-11/12 w-[90%] mb-20 mx-auto flex lg:flex-row flex-col gap-y-20 justify-around items-start gap-3">
         {customerServices.map((customerService) => (
           <div
             key={customerService.id}
-            className="flex flex-col justify-between 2xl:w-1/2 md:w-9/12 w-11/12 md:h-[350px] h-[320px]"
+            className="flex flex-col justify-between 2xl:w-1/2 lg:w-9/12 w-11/12 md:h-[350px] h-[320px]"
           >
             <div className="flex flex-col gap-5">
               <img

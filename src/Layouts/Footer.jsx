@@ -52,7 +52,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="2xl:w-[30%] w-11/12">
-          <form className="bg-[#ffc247] 2xl:w-11/12 w-full h-[233px] rounded-3xl relative">
+          <form className="bg-[#ffc247] lg:w-11/12 md:w-2/3  h-[233px] rounded-3xl relative">
             <img
               src="images/card-design.png"
               className="w-auto mx-auto absolute left-0 right-0 z-0"

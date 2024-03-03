@@ -16,7 +16,11 @@ const WorkSection = () => {
         <LearnMore />
       </div>
       <div className="lg:w-1/2 w-[95%] lg:mx-0 mx-auto ">
-        <img src="images/hybridwork.png" alt="hybrid-work" />
+        <img
+          src="images/hybridwork.png"
+          alt="hybrid-work"
+          className="w-[90%] mx-auto"
+        />
       </div>
     </div>
   );
