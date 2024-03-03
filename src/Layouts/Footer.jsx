@@ -4,7 +4,7 @@ import { FaMinus } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="bg-[#02033B] text-white w-full">
-      <div className="lg:w-[85%] w-[95%] mx-auto py-20 flex lg:flex-row flex-col justify-between md:items-start items-center lg:gap-0 gap-10">
+      <div className="lg:w-[85%] w-[95%] mx-auto py-20 flex lg:flex-row flex-col justify-between md:items-start items-center 2xl:gap-0 gap-10">
         <div className="2xl:w-[30%] w-11/12">
           <h1 className="text-xl font-bold mb-10">Scan. Detect. Remove.</h1>
           <div className="flex items-center gap-x-6 mb-10">
@@ -52,7 +52,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="2xl:w-[30%] w-11/12">
-          <form className="bg-[#ffc247] w-11/12 h-[233px] rounded-3xl relative">
+          <form className="bg-[#ffc247] 2xl:w-11/12 w-full h-[233px] rounded-3xl relative">
             <img
               src="images/card-design.png"
               className="w-auto mx-auto absolute left-0 right-0 z-0"

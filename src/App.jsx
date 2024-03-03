@@ -5,6 +5,8 @@ import HeroSection from "./Components/HeroSection";
 import Brands from "./Components/Brands";
 import TrustedSection from "./Components/TrustedSection";
 import Footer from "./Layouts/Footer";
+import SectionOne from "./Components/SectionOne";
+import SectionTwo from "./Components/SectionTwo";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,6 +16,8 @@ function App() {
       <HeroSection />
       <Brands />
       <TrustedSection />
+      <SectionOne />
+      <SectionTwo />
       <Footer />
     </>
   );
