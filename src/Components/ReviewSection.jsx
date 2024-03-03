@@ -35,9 +35,9 @@ const customerServices = [
   },
 ];
 
-const SectionSix = () => {
+const ReviewSection = () => {
   return (
-    <div className="lg:w-[85%] w-[95%] mx-auto py-40 flex flex-col justify-center items-center lg:gap-0 gap-10 relative">
+    <div className="lg:w-[85%] w-[95%] mx-auto py-28 flex flex-col justify-center items-center lg:gap-0 gap-10 relative">
       <h1 className="md:text-5xl text-4xl font-bold text-center 2xl:w-[100%] md:w-[60%] w-[95%] leading-10 mx-auto mb-10 ">
         Loved by the world's best teams{" "}
       </h1>
@@ -82,4 +82,4 @@ const SectionSix = () => {
   );
 };
 
-export default SectionSix;
+export default ReviewSection;

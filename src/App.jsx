@@ -5,10 +5,12 @@ import HeroSection from "./Components/HeroSection";
 import Brands from "./Components/Brands";
 import TrustedSection from "./Components/TrustedSection";
 import Footer from "./Layouts/Footer";
-import SectionOne from "./Components/SectionOne";
-import SectionTwo from "./Components/SectionTwo";
-import SectionSix from "./Components/SectionSix";
-import SectionThree from "./Components/SectionThree";
+import WorkSection from "./Components/WorkSection";
+import ToolsSection from "./Components/ToolsSection";
+import ReviewSection from "./Components/ReviewSection";
+import Banner from "./Components/Banner";
+import UseCaseSection from "./Components/UseCaseSection";
+import TeamsSection from "./Components/TeamsSection";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,10 +20,12 @@ function App() {
       <HeroSection />
       <Brands />
       <TrustedSection />
-      <SectionOne />
-      <SectionTwo />
-      <SectionThree />
-      <SectionSix />
+      <WorkSection />
+      <ToolsSection />
+      <Banner />
+      <UseCaseSection />
+      <TeamsSection />
+      <ReviewSection />
       <Footer />
     </>
   );

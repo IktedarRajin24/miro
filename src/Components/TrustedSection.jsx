@@ -3,7 +3,7 @@ import Button from "../Layouts/Button";
 
 const TrustedSection = () => {
   return (
-    <div className="lg:w-[85%] w-[95%] mx-auto py-40 flex flex-col justify-center items-center lg:gap-0 gap-10 relative">
+    <div className="lg:w-[85%] w-[95%] mx-auto pt-40 pb-10 flex flex-col justify-center items-center lg:gap-0 gap-10 relative">
       <p className="text-sm bg-[#ffd02f] px-3 py21 font-semibold uppercase rounded-md absolute top-[130px] 2xl:right-[33%] md:right-[25%] right-[1px] rotate-[12deg]">
         Your Idea Starts Here
       </p>
